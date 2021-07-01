@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2837NaM93Lt/xoc1FgM0Fo2CQ1HrDsMmRyopJcbdeMZV8ZPm9xYdxKnbPFGN0j2B5vvJhvVY6EhrVBwVRS3iCg==",
+  "dgSpecHash": "OQ862FZv/cSfrQTQ4ii+oc/DoO8gMjXvTw1ZuT7Eoa5Zwp6veyA0OuuPmcRTiauYuvRgchyyKKW4bP41EkwnNQ==",
   "success": true,
-  "projectFilePath": "D:\\DotNet\\XmlReaderAndWriter\\XmlReaderAndWriter\\XmlReaderAndWriter.csproj",
+  "projectFilePath": "/Users/arwawanla/Projects/Project5/XmlReaderAndWriter/XmlReaderAndWriter/XmlReaderAndWriter.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\DotNet\\XmlReaderAndWriter\\XmlReaderAndWriter\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
-    }
-  ]
+  "logs": []
 }

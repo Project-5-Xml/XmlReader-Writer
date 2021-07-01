@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Xml;
+using System.Collections.Generic;
 
 namespace XmlReaderAndWriter
 {
@@ -9,7 +10,7 @@ namespace XmlReaderAndWriter
         public void ReadXMLFile(string path)
         {
             XmlDocument xmldoc = new();
-            xmldoc.Load(@path);
+            xmldoc.Load(path);
 			XMLNodes( xmldoc.ChildNodes );
         }
 		private void XMLNodes( XmlNodeList nodes )
@@ -19,12 +20,12 @@ namespace XmlReaderAndWriter
             foreach( XmlNode node in nodes )
             {
 				if(node.Name[0] != '#')
-                Console.WriteLine( tabs() + node.Name + ":"  + (isHeader(node)? null : node.InnerText));
+                Console.WriteLine( tabs() + node.Name + ":"  + (isMainTag(node)? null : node.InnerText));
                 XMLNodes( node.ChildNodes );
 				tab--;
             }
         }
-		private bool isHeader(XmlNode node){
+		private bool isMainTag(XmlNode node){
 			return node.Name == "member" || node.Name == "team";
 		}
 		private string tabs(){
@@ -33,48 +34,79 @@ namespace XmlReaderAndWriter
     }
 
 	class Write{
-		public  void CreateXMLFileContainsTeamMembersInfo()
+		public void CreateXMLFile(XmlDocument xmldoc, XmlElement root, List<TeamMember> members)
         {
-            XmlDocument xmldoc = new XmlDocument();
 
-            XmlElement root = xmldoc.CreateElement("team");
-            xmldoc.AppendChild(root);
+            foreach (var member in members)
+            {
 
-            XmlElement element1 = xmldoc.CreateElement("member");
-            root.AppendChild(element1);
+                XmlElement header = xmldoc.CreateElement("member");
+                root.AppendChild(header);
 
-            XmlElement element2 = xmldoc.CreateElement("id");
-            XmlText text2 = xmldoc.CreateTextNode("");
-            element1.AppendChild(element2).AppendChild(text2);
-          
+                XmlElement id = xmldoc.CreateElement("id");
+                XmlText idText = xmldoc.CreateTextNode(member.Id);
+                header.AppendChild(id).AppendChild(idText);
 
-            XmlElement element3 = xmldoc.CreateElement("name");
-            XmlText text3 = xmldoc.CreateTextNode("");
-            element1.AppendChild(element3).AppendChild(text3);
+                XmlElement name = xmldoc.CreateElement("name");
+                XmlText nameText = xmldoc.CreateTextNode(member.Name);
+                header.AppendChild(name).AppendChild(nameText);
 
+                XmlElement major = xmldoc.CreateElement("major");
+                XmlText majorText = xmldoc.CreateTextNode(member.Major);
+                header.AppendChild(major).AppendChild(majorText);
 
-            XmlElement element4 = xmldoc.CreateElement("major");
-            XmlText text4 = xmldoc.CreateTextNode("");
-            element1.AppendChild(element4).AppendChild(text4);
+                XmlElement email = xmldoc.CreateElement("email");
+                XmlText emailText = xmldoc.CreateTextNode(member.Email);
+                header.AppendChild(email).AppendChild(emailText);
 
-            XmlElement element5 = xmldoc.CreateElement("email");
-            XmlText text5 = xmldoc.CreateTextNode("");
-            element1.AppendChild(element5).AppendChild(text5);
+            }
             
-            
-            xmldoc.Save(@"D:/DotNet/XmlReaderAndWriter/Project5.xml");
-            // Console.WriteLine(xmldoc.InnerXml);
         }
 	}
+
+    class TeamMember
+    {
+
+        public string Id;
+        public string Name;
+        public string Major;
+        public string Email;
+
+        public TeamMember(string id, string name, string major, string email)
+        {
+            this.Id = id;
+            this.Name = name;
+            this.Major = major;
+            this.Email = email;
+        }
+
+    }
+
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			Write writeXML = new();
-            writeXML.CreateXMLFileContainsTeamMembersInfo();
+            List<TeamMember> teamMembersInfo = new List<TeamMember>() {
+            new TeamMember("1001","Afra Allahyani", "BS.CS","afra.allahyani@tuwaiq.edu.sa"),
+            new TeamMember("1002","Faisal Alsagri","BS.SWE", "faisal.alsagri@tuwaiq.edu.sa"),
+            new TeamMember("1003","Arwa Wan La", "MS.IT", "arwa.wan.la@tuwaiq.edu.sa"),
+            new TeamMember("1004", "Turki Alqurashi", "BS.CS", "turki.alqurashi@tuwaiq.edu.sa"),
+            new TeamMember("1005", "Abdulrahman Aljafar", "BS.CS", "abdulrahman.aljafar@tuwaiq.edu.sa")
 
-			Read readXML = new();
-			readXML.ReadXMLFile("../Project5.xml");
+            };
+
+            XmlDocument xmldoc = new XmlDocument();
+            XmlElement root = xmldoc.CreateElement("team");
+            xmldoc.AppendChild(root);
+             
+            Write writeXML = new();
+
+            writeXML.CreateXMLFile(xmldoc, root, teamMembersInfo);
+
+            xmldoc.Save(@"Team.xml");
+
+            Read readXML = new();
+			readXML.ReadXMLFile(@"Team.xml");
 		}
 	}
 }
