@@ -4,5 +4,12 @@
   "success": true,
   "projectFilePath": "D:\\DotNet\\XmlReaderAndWriter\\XmlReaderAndWriter\\XmlReaderAndWriter.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\DotNet\\XmlReaderAndWriter\\XmlReaderAndWriter\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
+    }
+  ]
 }
