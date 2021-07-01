@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Xml;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace XmlReaderAndWriter
 {
@@ -98,15 +99,21 @@ namespace XmlReaderAndWriter
             XmlDocument xmldoc = new XmlDocument();
             XmlElement root = xmldoc.CreateElement("team");
             xmldoc.AppendChild(root);
-             
+
             Write writeXML = new();
 
-            writeXML.CreateXMLFile(xmldoc, root, teamMembersInfo);
+            Thread writeThread = new Thread(() => writeXML.CreateXMLFile(xmldoc, root, teamMembersInfo));
+
+            writeThread.Start();
+            writeThread.Join();
 
             xmldoc.Save(@"Team.xml");
 
             Read readXML = new();
-			readXML.ReadXMLFile(@"Team.xml");
-		}
+
+            Thread readThread = new Thread(() => readXML.ReadXMLFile(@"Team.xml"));
+
+            readThread.Start();
+        }
 	}
 }

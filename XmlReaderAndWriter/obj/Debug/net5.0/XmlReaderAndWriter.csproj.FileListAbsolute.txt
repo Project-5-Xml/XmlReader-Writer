@@ -29,3 +29,19 @@ D:/DotNet/XmlReaderAndWriter/XmlReaderAndWriter/obj/Debug/net5.0/XmlReaderAndWri
 /Users/arwawanla/Projects/Project5/XmlReaderAndWriter/XmlReaderAndWriter/obj/Debug/net5.0/ref/XmlReaderAndWriter.dll
 /Users/arwawanla/Projects/Project5/XmlReaderAndWriter/XmlReaderAndWriter/obj/Debug/net5.0/XmlReaderAndWriter.pdb
 /Users/arwawanla/Projects/Project5/XmlReaderAndWriter/XmlReaderAndWriter/obj/Debug/net5.0/XmlReaderAndWriter.genruntimeconfig.cache
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\XmlReaderAndWriter.exe
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\XmlReaderAndWriter.deps.json
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\XmlReaderAndWriter.runtimeconfig.json
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\XmlReaderAndWriter.runtimeconfig.dev.json
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\XmlReaderAndWriter.dll
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\ref\XmlReaderAndWriter.dll
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\XmlReaderAndWriter.pdb
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.csprojAssemblyReference.cache
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.AssemblyInfoInputs.cache
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.AssemblyInfo.cs
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.csproj.CoreCompileInputs.cache
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.dll
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\ref\XmlReaderAndWriter.dll
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.pdb
+C:\Users\abdul\OneDrive\سطح المكتب\C#2\new\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.genruntimeconfig.cache
