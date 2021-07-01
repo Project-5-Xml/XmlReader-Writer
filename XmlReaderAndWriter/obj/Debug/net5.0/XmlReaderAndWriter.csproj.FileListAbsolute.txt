@@ -1,0 +1,16 @@
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\XmlReaderAndWriter.exe
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\XmlReaderAndWriter.deps.json
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\XmlReaderAndWriter.runtimeconfig.json
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\XmlReaderAndWriter.runtimeconfig.dev.json
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\XmlReaderAndWriter.dll
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\ref\XmlReaderAndWriter.dll
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\bin\Debug\net5.0\XmlReaderAndWriter.pdb
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.csprojAssemblyReference.cache
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.AssemblyInfoInputs.cache
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.AssemblyInfo.cs
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.csproj.CoreCompileInputs.cache
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.dll
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\ref\XmlReaderAndWriter.dll
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.pdb
+D:\DotNet\XmlReaderAndWriter\XmlReaderAndWriter\obj\Debug\net5.0\XmlReaderAndWriter.genruntimeconfig.cache

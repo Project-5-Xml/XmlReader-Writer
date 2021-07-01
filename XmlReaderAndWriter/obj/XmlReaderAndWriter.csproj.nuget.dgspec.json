@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Turki\\Desktop\\Tuwaiq\\Clean-Code\\XmlReaderAndWriter\\XmlReaderAndWriter\\XmlReaderAndWriter.csproj": {}
+    "D:\\DotNet\\XmlReaderAndWriter\\XmlReaderAndWriter\\XmlReaderAndWriter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Turki\\Desktop\\Tuwaiq\\Clean-Code\\XmlReaderAndWriter\\XmlReaderAndWriter\\XmlReaderAndWriter.csproj": {
+    "D:\\DotNet\\XmlReaderAndWriter\\XmlReaderAndWriter\\XmlReaderAndWriter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Turki\\Desktop\\Tuwaiq\\Clean-Code\\XmlReaderAndWriter\\XmlReaderAndWriter\\XmlReaderAndWriter.csproj",
+        "projectUniqueName": "D:\\DotNet\\XmlReaderAndWriter\\XmlReaderAndWriter\\XmlReaderAndWriter.csproj",
         "projectName": "XmlReaderAndWriter",
-        "projectPath": "C:\\Users\\Turki\\Desktop\\Tuwaiq\\Clean-Code\\XmlReaderAndWriter\\XmlReaderAndWriter\\XmlReaderAndWriter.csproj",
-        "packagesPath": "C:\\Users\\Turki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Turki\\Desktop\\Tuwaiq\\Clean-Code\\XmlReaderAndWriter\\XmlReaderAndWriter\\obj\\",
+        "projectPath": "D:\\DotNet\\XmlReaderAndWriter\\XmlReaderAndWriter\\XmlReaderAndWriter.csproj",
+        "packagesPath": "C:\\Users\\Faisal Abdulaziz\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNet\\XmlReaderAndWriter\\XmlReaderAndWriter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Turki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Faisal Abdulaziz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
